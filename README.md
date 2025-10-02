@@ -39,4 +39,22 @@ user demands and preferences.
 or concerns they have, ensuring that the admin hears and addresses their criticism. This 
 fosters a culture of continual improvement, allowing the platform to grow in response to 
 user demands and preferences
+
+
 <img width="1037" height="392" alt="{3CC971EB-C61D-41A9-9550-34DEACF313F7}" src="https://github.com/user-attachments/assets/e363aa6a-a0c4-4f0e-84b2-3e6071f06f9a" />
+
+
+
+<img width="1045" height="569" alt="{0B06EA3E-28D1-46B0-96E3-6573A7CF6915}" src="https://github.com/user-attachments/assets/fb4d64e4-9d59-499a-887c-5ed1d8b8c741" />
+
+
+<img width="963" height="452" alt="{8804C7F1-1153-47E8-BBA7-D5F5169F3E81}" 
+  src="https://github.com/user-attachments/assets/b3fdd794-587a-45f7-85bb-559c0e06a714" />
+
+
+  <img width="1038" height="500" alt="{DE4AAA9F-CAA7-4DC7-B0DC-CF0629BB6AB4}" src="https://github.com/user-attachments/assets/00f2544b-2b92-4dc1-9423-b320677a5c38" />
+
+
+
+
+<img width="806" height="768" alt="{91D920B0-6A82-4692-8197-4DA4B07F0218}" src="https://github.com/user-attachments/assets/9f980c83-d4d8-4487-98da-377738e79ece" />
