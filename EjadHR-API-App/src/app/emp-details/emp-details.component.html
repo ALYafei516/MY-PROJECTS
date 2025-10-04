@@ -1,0 +1,57 @@
+<div style="background-color: #164a6d; color: white; padding: 15px; text-align: center; font-size: 40px;">
+    Applications Details
+</div>
+<br>
+<div class="row">
+    <div class="col-1"></div>
+    <div class="col-10">
+        <div class="col-11">
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-start mb-2 border px-4 py-3 rounded-3"
+                    *ngFor="let ed of service.list">
+                    
+                    <!-- Delete Icon -->
+                    <button (click)="confirmDelete(ed)" class="btn btn-link p-0 position-absolute" style="top: 10px; right: 10px;">
+                        <i class="fas fa-trash-alt text-danger" style="font-size: 1.5rem;"></i>
+                    </button>
+                    <div class="flex-grow-1 mouse-hover">
+                        <!-- Basic Information -->
+                        <div class="fw-bold">No: {{ed.employeeId}}</div>
+                        <div class="fw-bold">Name: {{ed.name}}</div>
+                        <div class="fw-bold">Email: {{ed.email}}</div>
+                        <div class="fw-bold">Phone number: {{ed.phone}}</div>
+                        
+                        <!-- Read More Button -->
+                        <button class="btn btn-link p-0" (click)="ed.expanded = !ed.expanded">
+                            {{ ed.expanded ? 'Show Less' : 'Read More' }}
+                        </button>
+
+                        <!-- Expanded Content: Visible only if expanded is true -->
+                        <div *ngIf="ed.expanded" class="mt-3">
+                            <!-- LinkedIn URL -->
+                            <div class="fw-bold">LinkedIn URL: 
+                                <a [href]="ed.linkedin" target="_blank">{{ed.linkedin}}</a>
+                            </div>
+
+                            <!-- Job Information -->
+                            <div class="fw-bold mt-3">Job Title: {{ed.jobTitle}}</div>
+                            <div class="fw-bold">Company Name: {{ed.companyName}}</div>
+                            <div class="fw-bold">Company From: {{ed.companyFrom | date:'yyyy-MM-dd'}}</div>
+                            <div class="fw-bold">Company To: {{ed.companyTo | date:'yyyy-MM-dd'}}</div>
+                            <div class="fw-bold">Salary: {{ed.salary | currency}}</div>
+
+                            <!-- Course Information -->
+                            <div class="fw-bold mt-3">Course Name: {{ed.courseName}}</div>
+                            <div class="fw-bold">Course Center: {{ed.courseCenter}}</div>
+                            <div class="fw-bold">Course From: {{ed.courseFrom | date:'yyyy-MM-dd'}}</div>
+                            <div class="fw-bold">Course To: {{ed.courseTo | date:'yyyy-MM-dd'}}</div>
+
+                            <!-- CV File -->
+                            <div class="fw-bold mt-3">CV:</div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
